@@ -1,0 +1,121 @@
+.mipluf_popup_modal {position: fixed; width: 0; height: 0; top: 32px; background: rgba(0,0,0,0.5); z-index: 99999;transition: opacity 0.6s;opacity: 0;overflow-x: hidden;overflow-y: auto;padding-bottom: 30px;}
+.mipluf_popup_modal.mipluf_show_modal {opacity: 1;width: calc( 100% - 168px ); height: 100%; width: 100%;}
+.mipluf_popup_modal .mipluf_popup_content { overflow-x: hidden;overflow-y: auto;}
+.mipluf_post_content a, .mipluf_p_wrap p a {color: #75a0cf;font-weight: bold;text-decoration: none;  }
+.mipluf_popup_dialog.mipluf_popup_small.mi-col-12{min-width: 1200px;}
+.mipluf_popup_modal .mipluf_popup_dialog.mipluf_popup_small {background: #FFF; position: relative; width: 800px; min-height: 250px;margin: 25px auto 0px auto;}
+.mipluf_popup_modal .mipluf_popup_dialog.mipluf_popup_small {max-width: 880px;}
+.mipluf_alert.mipluf_alert-error, .mipluf_alert.mipluf_alert-error a {padding: 10px;border: 1px solid #d73838;background: #ffd7d7;color: #d73838;}
+.mipluf_popup_modal .mipluf_close_modal_button {position: absolute;right: 0px;width: 20px;height: 20px;padding: 7px;color: #000;font-size: 32px;line-height: 15px;text-decoration: none;}
+.mipluf_login_buttons .mipluf_button{border: 1px solid #2271b1;; padding: 7px; border-radius: 3px; text-decoration: none; line-height: 35px;}
+.mipluf_field_table .mipluf_edit_row {border-bottom: 1px solid #ddd; padding: 10px 13px; font-size: 13px; }
+.mipluf_field_table .mipluf_edit_row .mipluf_edit_registration_form_row { width: 93%; margin: 0 auto; margin-bottom: 20px; padding-top: 15px; }
+.mipluf_field_table .mipluf_edit_row .mipluf_edit_registration_form_row input {width: 99%;  margin-top: 3px;}
+.mipluf_edit_restriction_form_row { border-bottom: 1px solid #ddd; padding: 6px 15px;}
+.mipluf_edit_restriction_form_row .mipluf_field_data{padding:10px 5px;}
+.mipluf_edit_restriction_form_row .mipluf_edit_form_row .mipluf_user_role {min-width: 100%;  }
+.mipluf_edit_restriction_form_row .mipluf_edit_form_row .mipluf_user_pages{min-width: 100%;}
+.mipluf_edit_form_row{ width: 94%; margin: 0 auto; margin-top: 7px; line-height: 2;}
+.mipluf_edit_restriction_form_row .mipluf_edit_restriction_form_row .mipluf_edit_field{ padding: 5px 0px; }
+.mipluf_edit_registration_form_row select#mipluf_field_type {width: 99%; margin-top: 5px;}
+.mipluf_user_role_content select#mipluf_login_user_role {width: 50%;}
+.mipluf_reg_form_shortcode_column.large-text.code  {border: none; background: transparent;}
+.mipluf_users_forms_tabs .mipluf_setting_general_tabs .mipluf_general_tab_urls_content { border-bottom: 1px solid #e3e3e3; padding: 6px 20px; }
+.mipluf_users_forms_tabs .mipluf_setting_general_tabs .mipluf_social_media_content { border-bottom: 1px solid #e3e3e3; padding: 2px 20px;  }
+.mipluf_users_forms_tabs .mipluf_setting_general_tabs .mipluf_user_role_content { margin-top: 6px; margin-left: 21px; }
+.mipluf_help_box{ min-height: 217px;}
+.mipluf_help_box .help_box{ margin-left: 15px; font-size: 15px;}
+.mipluf_role { border-bottom: 1px solid #c3c4c7; padding: 7px 15px;}
+.mipluf_role strong{ line-height: 2;}
+.mipluf_users_forms_tabs .mipluf_setting_general_tabs .mipluf_enable_recaptcha { padding: 8px 20px; border-bottom: 1px solid #e3e3e3; }
+.mipluf_form_role { padding-bottom: 20px; line-height: 2; margin-left: 10px;}
+.mipluf_popup_content .mipluf_add_role { padding:5px 23px;margin-top: 6px; margin-bottom: 6px; }
+.mipluf_disable_login_form_recaptcha { padding: 0 15px; }
+.mipluf_edit_registration_form_row .mipluf_required_form_field label:after { content: " *"; color: red; display: inline; }
+th#mipluf_shortcode{ width: 40%;}
+.mipluf_form_role strong:after,
+.mipluf_reg_redirection_page strong:after,
+.mipluf_role  strong:after { content: " *"; color: red; display: inline; }
+.mipluf_extra_custom_fields { display: inline-block; width: 19%; text-align: left; }
+.mipl_uf_edit_field { float: right; color: black; }
+.mipluf_login_form_settings .mipluf_login_redirection { padding: 10px 20px; margin-bottom: 13px; line-height: 2.5;}
+.mipluf_disable_recaptcha { padding: 10px 10px; line-height: 23px; border-top: 1px solid #e3e3e3; }
+.mipluf_disable_login_page_recaptcha { padding: 10px 22px; line-height: 23px; border-bottom: 1px solid #e3e3e3; }
+.mipluf_reg_redirection_page { border-top: 1px solid #e3e3e3; padding: 7px 10px; line-height: 2;}
+.mipluf_edit_row.mipluf_custom_field_error{ border-left: 4px solid #e25e5e; margin-left: -8px; }
+a.mipluf_edit_field.mipl_uf_edit_field { margin-right: 25px; }
+.mipluf_edit_registration_form_row .mipluf_label_error, .mipluf_edit_registration_form_row .mipluf_name_error, .mipluf_edit_registration_form_row .mipluf_class_error, .mipluf_edit_registration_form_row .mipluf_id_error, .mipluf_edit_registration_form_row .mipluf_placeholder_error, .mipluf_edit_registration_form_row .mipluf_type_error, .mipluf_edit_registration_form_row .mipluf_option_error{ border: 1px solid #e25e5e;}
+span.mipluf_reg_form_error { color: red; }
+.mipluf_required_form_field { padding: 7px 0px; }
+.mipluf_optional_form_field { padding: 7px 0px; }
+.mipluf_optional_checkbox_field { margin-top: 8px; }
+.mipluf_user_edit_req_field label:after,
+.mipluf_required_field:after{ content: " *"; color: red; display: inline; }
+
+.mipluf_required { margin: 0; padding: 0; margin-left: 3px; color: red; font-weight: bold; }
+
+.mipluf_edit_registration_form_row textarea#mipluf_field_option {width: 99%; height: 100px;}
+.mipluf_restriction_error { color: red; display: block;}
+.mipluf_setting_general_tabs strong { line-height: 2.5; display: block;}
+textarea#mipluf_supplier_activation_email { height: 210px; width: 100%; margin-top: 10px; margin-bottom: 10px; }
+textarea#mipluf_supplier_notify_email { height: 210px; width: 100%; margin-top: 10px; }
+.mipluf_error_fields { color: red; display: block; }
+.mipluf_popup_content span.mipluf_success_message { margin-left: 24px; position: relative; font-size: 16px; float: left; color: black; margin-bottom: 20px; }
+
+
+/* tabs css */
+.mipluf_users_forms_tabs ul.label li {display: inline-block; position: relative; padding: 10px 0px; line-height: normal; }
+.mipluf_users_forms_tabs .label li.mipluf_tab_active { background: white; border: none; border-bottom: 3px solid #2a80c7;}
+.mipluf_users_forms_tabs ul.label li a.mipl_uf_setting { font-weight: bold; padding: 10px 12px; }
+.mipluf_users_forms_tabs .mipluf_setting_general_tabs { position: relative; width: 100%; background: white; min-height: 100px; }
+.mipluf_users_forms_tabs a.mipl_uf_setting{ text-decoration: none;  color: black; }          
+.mipluf_users_forms_tabs .mipluf_setting_general_tabs input[type="text"],
+.mipluf_users_forms_tabs .mipluf_setting_general_tabs input[type="select"],
+.mipluf_users_forms_tabs .mipluf_setting_general_tabs input[type="number"]{ width: 100%; }
+.mipluf_users_forms_tabs .mipluf_setting_general_tabs input { margin-bottom: 15px; }
+.mipluf_users_forms_tabs ul.label { position: relative; display: inline-block; width: 100%; margin: 0; background-color: #eee; height: 37px;}
+.mipluf_users_forms_tabs a:focus { outline: none; box-shadow: none; }
+.mipluf_help_content { border-bottom: 1px solid #e3e3e3; padding: 8px 20px;}
+.mipluf_reg_shortcode { padding: 20px 10px; }
+
+
+/* social media default login button */
+.mipluf_google_login_default_button .g_id_signin { position: relative; width: 250px; margin-left: 31px; margin-bottom: 10px;}
+.mipluf_users_forms_tabs .mipluf_setting_general_tabs .button_type { padding: 8px 20px; }
+.mipluf_users_forms_tabs .mipluf_setting_general_tabs .default_buttons .mipluf_default_google_login_button { width: 233px; margin-bottom: 13px; margin-left: 20px; }
+
+
+/* social media custom login button */
+.mipluf_users_forms_tabs .mipluf_setting_general_tabs .custom_buttons .mipluf_custom_google_login_button { height: 35px; background: #4285F4; width: 232px; margin-left: 22px; margin-bottom: 20px; }
+.mipluf_users_forms_tabs .mipluf_setting_general_tabs .custom_buttons .mipluf_custom_google_login_button svg.mipluf_svg_icons{ fill: white; padding: 5px; width: 24px; height: 24px; float: left; margin-right: 11px; border-right: 0.1px solid #3e3e3e;}
+.mipluf_users_forms_tabs .mipluf_setting_general_tabs .custom_buttons .mipluf_custom_google_login_button a.mipluf_custom_button_anchor { color: white; font-size: 17px; line-height: 2; text-decoration: none;}
+
+
+/* social media icon */
+.mipluf_users_forms_tabs .mipluf_setting_general_tabs .icon .mipluf_google { margin-left: 20px; margin-bottom: 8px;}
+.mipluf_login_buttons .CodeMirror { border: 1px solid #ddd;  margin-top: 15px;  }
+.mipluf_registration_form .CodeMirror { border: 1px solid #ddd;  margin-top: 15px;  }
+
+
+/* Import/Export Setting */
+.mipluf-meta-box-wrap.-grid .postbox {float: left; clear: left; width: 50%; margin: 0 0 16px;}
+.mipluf-meta-box-wrap.-grid .postbox:nth-child(even) {float: right; clear: right; margin-right: -8px;}
+.mipluf-meta-box-wrap.-grid .postbox:nth-child(odd) {margin-left: -8px;}
+.mipluf-meta-box-wrap .postbox .hndle {font-size: 14px; padding: 8px 12px; margin: 0; line-height: 1.4; position: relative; z-index: 1; cursor: default;}
+.mipluf-meta-box-wrap .mipl-fields {border-radius: 3px; }
+
+
+/* Registration form blocks */
+.mipluf_registration_forms_block{ min-height: 35px; padding: 25px 0px 35px 25px; border: 1px solid #949494; }
+
+
+/* Login Button block */
+input#mipluf_login_button { padding: 25px; }
+
+
+/* Registration forms blocks */
+.mipluf_registration_forms_block { font-size: 15px; }
+
+
+/* Login form block */
+input#mipluf_login_form { padding: 25px; }

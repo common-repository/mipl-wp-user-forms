@@ -1,0 +1,112 @@
+.mipluf_popup_content .form_heading { font-size: 20px; margin: 0;}
+.mipluf_popup_content p{ margin: 0; }
+.mipluf_popup_modal.mipluf_show_modal {opacity: 1;width: 100%;height: 100%;}
+.mipluf_popup_modal .mipluf_popup_dialog.mipluf_popup_small {background: #FFF; position: relative; max-width: 650px; min-height: 250px; margin: 40px auto;}
+.mipluf_popup_modal .mipluf_popup_dialog.popup_large { background: #FFF; position: relative; width: 900px; min-height: 250px; margin: 25px auto; }
+.mipluf_popup_dialog.mipluf_popup_small.mi-col-12{ max-width: 1200px; }
+.mipluf_popup_content_inner.mi-col-6{ margin: 0 5px 0 5px; padding-right: 15px; padding-left: 15px; }
+.mipluf_popup_modal .mipluf_popup_content { padding: 25px; overflow-x: hidden; min-height: 300px; overflow-y: auto; }
+.mipluf_popup_content fieldset { width: 320px; min-height: 320px; padding: 20px; background: white; }
+.mipluf_popup_content form label{ font-size: 14px; }
+.mipluf_popup_content form button.-primary.button-small { background: #2271b1; border-color: #2271b1; width: 195px; border-radius: 6px; height: 38px; color: white; }
+.mipluf_p_wrap p { padding: 0; margin: 0; }
+.mipluf_popup_modal { position: fixed; width: 0; height: 0; top: 0; background: rgba(0,0,0,0.5); z-index: 99999; transition: opacity 0.6s; opacity: 0; overflow-x: hidden; overflow-y: auto; padding-bottom: 30px; }
+.mipluf_alert.mipluf_alert-error, .mipluf_alert.mipluf_alert-error a { margin-left: 3px; padding: 10px; color: #d73838; float: left;}
+.mipluf_post_content a, .mipluf_p_wrap p a { color: #75a0cf; font-weight: bold; text-decoration: none; }
+.mipluf_popup_modal .mipluf_close_modal_button { position: absolute; top: 0px; right: 3px; text-decoration: none; height: 32px; padding: 7px; color: #000; font-size: 32px; line-height: 15px; }
+.mipluf_register_form { width: 60%; float: left; margin-left: 30px; }
+.mipluf_login_form { padding: 1px; }
+.mipluf_user_login_page_form input[type="checkbox"]{margin-top: 15px; box-sizing: border-box; padding: 0; margin-right: 10px; }
+.mipluf_error_alert { color: red; display: inline-block; width: 100%; margin-top: 20px; }
+.mipluf_button{ width: 100px; height: 27px; border-radius: 20px; background: lightgrey; margin-top: 21px; }
+.mipluf_user_login_page_form { width: 370px; position: relative; }
+.mipluf_user_login_page_form label{ font-size: 14px; }
+.mipluf_user_login_page_form input[type="text"] { width: 100%; height: 40px; margin-bottom: 15px;}
+.mipluf_user_login_page_form input[type="password"] { width: 100%; height: 40px; }
+.mipluf_user_login_form input[type="text"] { width: 100%;  height: 40px; }
+.mipluf_user_login_form input[type="password"] { width: 100%;  height: 40px; }
+.mipluf_login_popup { width: 550px;}
+.mipluf_user_login_form button { float: right;  margin-right: 14px; background: #2271b1; border-color: #2271b1; color: white; font-weight: 700; }
+.mipluf_login_popup input[type="text"] { width: 100%;  height: 40px; margin-bottom: 20px;}
+.mipluf_login_popup input[type="password"] { width: 100%;  height: 40px; margin-bottom: 20px;}
+.mipluf_login_popup button { cursor: pointer; width: 100px; padding: 8px; background: #2271b1; border-color: #2271b1; color: white; font-weight: 700; margin-top: 15px;}
+.mipluf_user_login_page_form .mipluf_p_wrap{ color: #75a0cf; font-weight: bold; text-decoration: none;  float: right; font-size: 15px; text-decoration: none ; margin-top: 15px;} 
+.mipluf_forgotpassword_pageform fieldset { width: 315px; }
+.mipluf_forgotpassword_pageform h2 { font-size: 20px; }
+.mipluf_forgotpassword_pageform input{ width: 95%; height: 35px; }
+.mipluf_forgotpassword_pageform button.mipluf_button_small { width: 195px; float: right;  background: #2271b1; border-color: #2271b1; color: white; font-weight: 700; }
+.mipluf_reg_login_forgotpassword_pageform fieldset { width: 315px; }
+.mipluf_reg_login_forgotpassword_pageform h2 { font-size: 20px; }
+.mipluf_reg_login_forgotpassword_pageform input{ width: 95%; height: 35px; }
+.mipluf_reg_login_forgotpassword_pageform button.mipluf_button_small { width: 195px; float: right;  background: #2271b1; border-color: #2271b1; color: white; font-weight: 700; }
+.mipluf_login_modal_forgotpassword_pageform fieldset { width: 315px; }
+.mipluf_login_modal_forgotpassword_pageform h2 { font-size: 20px; }
+.mipluf_login_modal_forgotpassword_pageform input{ width: 95%; height: 35px; }
+.mipluf_login_modal_forgotpassword_pageform button.mipluf_button_small { width: 195px; float: right;  background: #2271b1; border-color: #2271b1; color: white; font-weight: 700; }
+.mipluf_reg_login_modal_forgotpassword_pageform fieldset { width: 315px; }
+.mipluf_reg_login_modal_forgotpassword_pageform h2 { font-size: 20px; }
+.mipluf_forgotpmipluf_reg_login_modal_forgotpassword_pageformassword_pageform input{ width: 95%; height: 35px; }
+.mipluf_reg_login_modal_forgotpassword_pageform button.mipluf_button_small { width: 195px; float: right;  background: #2271b1; border-color: #2271b1; color: white; font-weight: 700; }
+.mipluf_user_register_pageform { width: 550px; }
+.mipluf_user_register_pageform label { font-size: 15px; width: 100%; display: inline-block; margin-top: 10px; }
+.mipluf_user_register_pageform input{ width: 97%; padding: 0 6px; height: 40px; position: relative;}
+.mipluf_user_register_pageform textarea{ width: 97%; padding: 0 6px; height: 50px; position: relative;}
+.mipluf_user_register_pageform button { cursor: pointer; width:150px; padding: 10px; border-radius: 3px; margin-top: 15px; background: darkgrey; border: slategrey; color: black; float: left; }
+.mipluf_user_register_pageform input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; margin-right: 10px; width: 17px; float: left; height: 17px;}
+.Mipluf_forgot_password_form input { width: 100%; height: 30px; }
+.Mipluf_forgot_password_form button.mipluf_button_small {width: 195px;height: 30px;float: right;margin-top: 6px;margin-right: 14px;background: #2271b1;border-color: #2271b1;color: white;font-weight: 700;}
+.mipluf_error { color: red; font-weight: 500; font-size: 13px; }
+.mipluf_error_fields { color: red; display: block; }
+.mipluf_user_login_page_form button {width: 115px;  margin-top: 15px; margin-right: 5px; padding: 8px; background: #2271b1; border-color: #2271b1; color: white; font-weight: 700; cursor: pointer;}
+.mipluf_user_register_page_form { width: 550px; }
+.mipluf_user_register_page_form select { width: 100%; height: 40px; padding: 0 8px; }
+.mipluf_user_register_page_form label { font-size: 15px; }
+.mipluf_user_register_page_form input{ width: 97%; padding: 0 6px; height: 40px; margin-bottom: 5px;}
+.mipluf_user_register_page_form button { cursor: pointer; width:150px; padding: 10px; border-radius: 3px; margin-top: 15px; background: darkgrey; border: slategrey; color: black; float: left; }
+.mipluf_user_register_page_form input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; margin-right: 10px; width: 17px; float: left; height: 17px;}
+.mipluf_user_register_login_form label{ font-size: 14px; }
+.mipluf_user_register_login_form input[type="text"] { width: 100%;  height: 40px;  padding: 0 8px; margin-bottom: 15px;}
+.mipluf_user_register_login_form input[type="password"] { width: 100%;  height: 40px;  padding: 0 8px;}
+.mipluf_user_register_login_form button { cursor: pointer; background: #2271b1; width: 100px; padding: 8px; border-color: #2271b1; color: white; font-weight: 700; margin-top: 15px;}
+.mipluf_user_register_login_form_modal label{ font-size: 14px; }
+.mipluf_user_register_login_form_modal input[type="text"] { width: 100%;  height: 40px; margin-bottom: 20px;}
+.mipluf_user_register_login_form_modal input[type="password"] { width: 100%;  height: 40px; margin-bottom: 20px; }
+.mipluf_user_register_login_form_modal button {width: 100px; background: #2271b1; border-color: #2271b1; color: white; font-weight: 700; margin-top: 20px; padding: 8px;}
+.mipluf_user_register_login_page_form { width: 370px; margin-top: 15px;}
+.mipluf_user_register_login_page_form select { width: 100%; padding: 0 8px; height: 40px;}
+.mipluf_user_register_login_page_form label { font-size: 15px; }
+.mipluf_user_register_login_page_form input{ width: 97%; padding: 0 4px; height: 40px; margin-bottom: 15px;}
+.mipluf_user_register_login_page_form textarea{ width: 97%; padding: 0 4px; height: 50px; margin-bottom: 15px;}
+.mipluf_user_register_login_page_form button { cursor: pointer; width:150px; padding:10px; border-radius: 3px; margin-top: 15px; background: darkgrey; border: slategrey; color: black; float: left; }
+.mipluf_user_register_login_page_form input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; margin-right: 10px; width: 17px; float: left; height: 17px;}
+.mipluf_user_register_login_page_modal { width: 370px; }
+.mipluf_user_register_login_page_modal label { font-size: 15px; }
+.mipluf_user_register_login_page_modal input{ width: 97%; padding: 0 4px; height: 40px; margin-bottom: 15px;}
+.mipluf_user_register_login_page_modal button { width:150px; border-radius: 3px; margin-top: 15px; background: darkgrey; border: slategrey; color: black; float: left; padding: 10px;}
+.mipluf_user_register_login_page_modal input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; margin-right: 10px; width: 17px; float: left; height: 17px;}
+.mipluf_popup_dialog.mipluf_popup_small.mipluf_registration_login{ min-width: 900px; }
+.mipluf_login_form_modal { position: relative; width: 370px; float: left; }
+.mipluf_reg_modal { position: relative; float: left; width: 450px; margin-left: 15px;}
+.mipluf_registration_login_form{ min-width: 900px; display: flex;}
+.mipluf_registration_login_form .mipl_uf_login_form { position: relative; width: 343px;  }
+.mipluf_registration_login_form .mipluf_reg { position: relative;  width: 418px; }
+.mipluf_forgotpassword_pageform {width: 370px;}
+.mipluf_forgotpassword_pageform .mipluf_p_wrap{ width: 100%; float: left;}
+.mipluf_google_login_default_button .g_id_signin { position: relative; width: 250px; margin-left: 31px; margin-bottom: 10px;}
+.mipluf_user_register_pageform select { width: 100%; height: 40px; padding: 0 8px;}
+.mipluf_user_register_login_page_modal select { width: 100%; height: 40px; padding: 0 8px;}
+
+
+/* social media default buttons */
+.mipluf_google_login_default_button { margin-top: 20px; }
+
+
+/* social media custom buttons */
+.mipluf_google_login {overflow: hidden; height: 35px; background: #4285F4; width: 232px; margin-top: 10px; margin-left: 35px; }
+.mipluf_google_login svg{  fill: white; padding: 5px; width: 25px; height: 25px; float: left; margin-right: 11px; border-right: 0.1px solid #3e3e3e;}
+.mipluf_google_login a{ color: white; font-size: 17px; line-height: 2; text-decoration: none;}
+.mipluf_google_login a:hover, a:active { color: white; }
+
+
+/* social media icons */ 
+.mipluf_google { display: inline-block; padding: 5px; width: 50px;} 
